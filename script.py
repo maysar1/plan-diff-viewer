@@ -53,7 +53,7 @@ if uploaded_file1 and uploaded_file2:
             result.save(buf, format="PNG")
 
             st.success("⚠️ Differences detected. Click below to download the overlay:")
-            st.image(result, caption="🔍 Differences Highlighted in Bright Red", use_column_width=True)
+            st.image(result, caption="🔍 Differences Highlighted in Bright Red", use_container_width=True)
             st.download_button(
                 label="📥 Download Difference Overlay",
                 data=buf.getvalue(),
