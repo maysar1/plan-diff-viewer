@@ -63,3 +63,6 @@ if uploaded_file1 and uploaded_file2:
 
     except Exception as e:
         st.error(f"❌ Error: {e}")
+
+
+#     > streamlit run script.py
