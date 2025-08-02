@@ -1,0 +1,5 @@
+streamlit
+pdf2image
+numpy
+opencv-python
+Pillow
